@@ -11,18 +11,15 @@
 .Button {
   padding: 14px 32px;
   border-radius: 30px;
-  background-color: white;
-  color: black;
   font-weight: 600;
   font-size: 20px;
-  border: 1px solid black;
+  border: 1px solid white;
   transition-duration: 0.5s;
 }
 
 .Button:hover {
-  color: white;
-  background-color: black;
-  border-color: white;
+  color: black;
+  background-color: white;
 }
 
 .Quote {
