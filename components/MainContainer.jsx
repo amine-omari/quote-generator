@@ -15,7 +15,7 @@ const MainContainer = () => {
   };
 
   return (
-    <div className="">
+    <div className="main">
       <div>
         <button onClick={getQuote}>Get a New Quote</button>
       </div>
