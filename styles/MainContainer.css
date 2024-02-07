@@ -11,4 +11,12 @@
   color: black;
   font-weight: 600;
   font-size: 20px;
+  border: 1px solid black;
+  transition-duration: 0.5s;
+}
+
+.Button:hover {
+  color: white;
+  background-color: black;
+  border-color: white;
 }
