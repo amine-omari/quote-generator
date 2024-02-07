@@ -58,3 +58,9 @@
   padding: 4px;
   transition-duration: 0.5s;
 }
+
+.bottom_buttons button:hover {
+  border-color: black;
+  color: black;
+  background-color: white;
+}
