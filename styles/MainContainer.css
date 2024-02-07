@@ -45,3 +45,8 @@
 .author {
   font-size: 14px;
 }
+
+.bottom_buttons {
+  display: flex;
+  justify-content: end;
+}
