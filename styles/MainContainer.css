@@ -50,3 +50,11 @@
   display: flex;
   justify-content: end;
 }
+
+.bottom_buttons button {
+  margin: 0 4px;
+  border: 1px solid white;
+  border-radius: 99px;
+  padding: 4px;
+  transition-duration: 0.5s;
+}
