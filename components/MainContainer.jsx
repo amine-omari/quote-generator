@@ -24,9 +24,9 @@ const MainContainer = () => {
       {quote && (
         <div>
           <h1 className="Quote">"{quote.content}"</h1>
-          <div>
+          <div className="author_container">
             <p>Author :</p>
-            <p>{quote.author}</p>
+            <p className="author">{quote.author}</p>
           </div>
           <div>
             <button>
