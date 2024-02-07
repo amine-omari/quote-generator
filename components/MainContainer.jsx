@@ -15,7 +15,7 @@ const MainContainer = () => {
   };
 
   return (
-    <div className="main">
+    <div className="card">
       <div>
         <button className="Button" onClick={getQuote}>
           Get a New Quote
@@ -28,7 +28,7 @@ const MainContainer = () => {
             <p>Author :</p>
             <p className="author">{quote.author}</p>
           </div>
-          <div>
+          <div className="bottom_buttons">
             <button>
               <ShareIcon />
             </button>
