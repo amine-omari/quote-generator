@@ -17,7 +17,9 @@ const MainContainer = () => {
   return (
     <div className="main">
       <div>
-        <button onClick={getQuote}>Get a New Quote</button>
+        <button className="Button" onClick={getQuote}>
+          Get a New Quote
+        </button>
       </div>
       {quote && (
         <div>

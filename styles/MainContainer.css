@@ -3,3 +3,12 @@
   border-radius: 20px;
   padding: 24px;
 }
+
+.Button {
+  padding: 14px 32px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
