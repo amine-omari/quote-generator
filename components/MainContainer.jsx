@@ -16,23 +16,21 @@ const MainContainer = () => {
 
   return (
     <div className="">
-      <div className="">
-        <button onClick={getQuote} className="">
-          Get a New Quote
-        </button>
+      <div>
+        <button onClick={getQuote}>Get a New Quote</button>
       </div>
       {quote && (
-        <div className="">
-          <h1 className="">"{quote.content}"</h1>
+        <div>
+          <h1>"{quote.content}"</h1>
           <div>
-            <p className="">Author :</p>
-            <p className="">{quote.author}</p>
+            <p>Author :</p>
+            <p>{quote.author}</p>
           </div>
-          <div className="">
-            <button className="">
+          <div>
+            <button>
               <ShareIcon />
             </button>
-            <button className="">
+            <button>
               <StarIcon />
             </button>
           </div>
