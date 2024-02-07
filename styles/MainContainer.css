@@ -32,10 +32,16 @@
   color: black;
   font-weight: 600;
   border-radius: 14px;
-  margin-top: 16px;
+  margin: 16px 0;
+  font-size: 20px;
 }
 
 .author_container {
   font-size: 18px;
   padding-left: 8px;
+  font-weight: 600;
+}
+
+.author {
+  font-size: 14px;
 }
