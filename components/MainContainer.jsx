@@ -15,16 +15,14 @@ const MainContainer = () => {
   return (
     <div className="card">
       <div>
-        <button className="Button" onClick={getQuote}>
-          Get a New Quote
-        </button>
+        <button onClick={getQuote}>Get a New Quote</button>
       </div>
       {quote && (
         <div>
           <h1 className="Quote">"{quote.content}"</h1>
-          <div className="author_container">
+          <div className="author">
             <p>Author :</p>
-            <p className="author">{quote.author}</p>
+            <p>"{quote.author}"</p>
           </div>
         </div>
       )}
