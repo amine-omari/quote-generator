@@ -1,5 +1,3 @@
-import ShareIcon from "@/icons/ShareIcon";
-import StarIcon from "@/icons/StarIcon";
 import React, { useState } from "react";
 
 const MainContainer = () => {
@@ -27,14 +25,6 @@ const MainContainer = () => {
           <div className="author_container">
             <p>Author :</p>
             <p className="author">{quote.author}</p>
-          </div>
-          <div className="bottom_buttons">
-            <button>
-              <ShareIcon />
-            </button>
-            <button>
-              <StarIcon />
-            </button>
           </div>
         </div>
       )}
