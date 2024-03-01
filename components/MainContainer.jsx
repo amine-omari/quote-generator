@@ -17,6 +17,7 @@ const MainContainer = () => {
       <div>
         <button onClick={getQuote}>Get a New Quote</button>
       </div>
+      {/* If the fetch is successful... show this container */}
       {quote && (
         <div>
           <h1 className="Quote">"{quote.content}"</h1>
