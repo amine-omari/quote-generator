@@ -6,10 +6,17 @@ export default function Home() {
   const apiUrl = "https://api.quotable.io/random";
 
   const getQuote = async () => {
-    const response = await fetch(apiUrl);
-    const quoteData = await response.json();
+    try {
+      const response = await fetch(apiUrl);
+      const quoteData = await response.json();
 
-    setQuote(quoteData);
+      setQuote(quoteData);
+    } catch (error) {
+      console.log(
+        "An error occurred while fetching the quote. Please try again later.",
+        error,
+      );
+    }
   };
 
   return (
